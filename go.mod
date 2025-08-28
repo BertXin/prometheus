@@ -11,10 +11,12 @@ require (
 	github.com/KimMachineGun/automemlimit v0.7.3
 	github.com/alecthomas/kingpin/v2 v2.4.0
 	github.com/alecthomas/units v0.0.0-20240927000941-0f3dac36c52b
+	github.com/aliyun/alibaba-cloud-sdk-go v1.63.107
 	github.com/aws/aws-sdk-go v1.55.7
 	github.com/bboreham/go-loser v0.0.0-20230920113527-fcc2c21820a3
 	github.com/cespare/xxhash/v2 v2.3.0
 	github.com/dennwc/varint v1.0.0
+	github.com/denverdino/aliyungo v0.0.0-20230411124812-ab98a9173ace
 	github.com/digitalocean/godo v1.152.0
 	github.com/docker/docker v28.2.2+incompatible
 	github.com/edsrzf/mmap-go v1.2.0
@@ -22,6 +24,7 @@ require (
 	github.com/envoyproxy/protoc-gen-validate v1.2.1
 	github.com/facette/natsort v0.0.0-20181210072756-2cd4dd1e2dcb
 	github.com/fsnotify/fsnotify v1.8.0
+	github.com/go-kit/log v0.2.1
 	github.com/go-openapi/strfmt v0.23.0
 	github.com/go-zookeeper/zk v1.0.4
 	github.com/gogo/protobuf v1.3.2
@@ -111,9 +114,11 @@ require (
 	github.com/cenkalti/backoff/v5 v5.0.2 // indirect
 	github.com/containerd/errdefs v1.0.0 // indirect
 	github.com/containerd/errdefs/pkg v0.3.0 // indirect
+	github.com/go-logfmt/logfmt v0.5.1 // indirect
 	github.com/gobwas/glob v0.2.3 // indirect
 	github.com/hashicorp/go-version v1.7.0 // indirect
 	github.com/moby/sys/atomicwriter v0.1.0 // indirect
+	github.com/opentracing/opentracing-go v1.2.1-0.20220228012449-10b1cf09e00b // indirect
 	github.com/puzpuzpuz/xsync/v3 v3.5.1 // indirect
 	go.opentelemetry.io/collector/featuregate v1.34.0 // indirect
 	go.opentelemetry.io/collector/internal/telemetry v0.128.0 // indirect

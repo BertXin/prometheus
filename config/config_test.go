@@ -31,6 +31,7 @@ import (
 	"gopkg.in/yaml.v2"
 
 	"github.com/prometheus/prometheus/discovery"
+	_ "github.com/prometheus/prometheus/discovery/aliyun"
 	"github.com/prometheus/prometheus/discovery/aws"
 	"github.com/prometheus/prometheus/discovery/azure"
 	"github.com/prometheus/prometheus/discovery/consul"

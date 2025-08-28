@@ -16,6 +16,8 @@
 package plugins
 
 import (
+	// Register aliyun plugin.
+	_ "github.com/prometheus/prometheus/discovery/aliyun"
 	// Register aws plugin.
 	_ "github.com/prometheus/prometheus/discovery/aws"
 	// Register azure plugin.
